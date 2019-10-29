@@ -2,6 +2,9 @@
 
 ## v1.5.0
 
+<a name="1_5_0_electron_main_extension"></a>
+- [[electron]](#1_5_0_electron_main_extension) Electron applications can now be configured/extended through `inversify`. Added new `electronMain` extension points to provide inversify container modules. [#8076](https://github.com/eclipse-theia/theia/pull/8076)
+
 <a name="breaking_changes_1.5.0">[Breaking Changes:](#breaking_changes_1.5.0)</a>
 
 - [output] `OutputWidget#setInput` has been removed. The _Output_ view automatically shows the channel when calling `OutputChannel#show`. Moved the `OutputCommands` namespace from the `output-contribution` to its dedicated `output-commands` module to overcome a DI cycle. [#8243](https://github.com/eclipse-theia/theia/pull/8243)
