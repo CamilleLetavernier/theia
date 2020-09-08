@@ -8,7 +8,9 @@
   },
   "resolutions": {
     "**/@types/node": "~10.3.6",
-    "**/node-abi": "^2.18.0"
+    "**/node-abi": "^2.18.0",
+    "sprotty": "0.9.0-next.7868d74",
+    "@eclipse-glsp/client": "0.8.0-next.e555d60"
   },
   "devDependencies": {
     "@types/chai-string": "^1.4.0",
